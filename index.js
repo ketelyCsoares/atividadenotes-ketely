@@ -5,7 +5,6 @@ const nomeCompleto ="ketely Cristina Soares";
 const anoNascimento = 2006;
 let anoAtual = 2024;
 let idade = 17;
-
 console.log("Olá eu sou " + nomeCompleto + " estamos no ano " + anoAtual + " minha idade é " + idade + " e sou nascido no ano " + anoNascimento);
 
 anoQueVem = anoAtual + 1;
@@ -17,9 +16,9 @@ console.log(`oi eu sou ${nomeCompleto} meu ano de nascimento é ${anoNascimento}
 
 const loginCerto = "ketely";
 const senhaCerta = 123;
-console.log(" ");
-console.log("AGÊNCIAS DE VIAGENS");
-console.log(" ");
+console.log("------------------------------------------------------------------ ");
+console.log("    ******************⛱️​  🗽AGÊNCIAS DE VIAGENS🗽 ⛱️​ *************");
+console.log("------------------------------------------------------------------ ");
 
 console.log("Faça seu login para continuar");
 
@@ -36,11 +35,11 @@ while(login != loginCerto){
   }
 
 const listaDeViagens = new Array(
-  `Tokyo`,
-  `Egito`,
-  `Paris`,
-  `Nova York`,
-  `Roma`
+  `  ⟹  Tokyo`,
+  `  ⟹  Egito`,
+  `  ⟹  Paris`,
+  `  ⟹  Nova York`,
+  `  ⟹  Roma`
 );
 
 console.log(listaDeViagens);
